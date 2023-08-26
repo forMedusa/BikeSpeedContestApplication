@@ -1,9 +1,9 @@
 <div *ngFor="let bike of bikes" class="bike-container">
-  <img [src]="bike.bikeImage" class="bike-svg"  />
-  <svg width="1000" height="30">
+  <img [src]="bike.bikeImage" class="bike-svg"  /><p>Name: {{ bike.name }} - Speed: {{ bike.speed }} - Distance: {{bike.distance}} </p>
+  <svg width="500" height="30">
     <rect class="progress-bar"  height="30" [ngStyle]="{ 'fill': bike.svg, 'width': bike.distance + 'px' }"></rect>
   </svg>
-  <p>{{ bike.name }} - Speed: {{ bike.speed }} - Distance: {{bike.distance}} </p>
+  
 </div>
 <div class="winnerDiv">
   And the winner is...tan ta den....: <p style="color: green;

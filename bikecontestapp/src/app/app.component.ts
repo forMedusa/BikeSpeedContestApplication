@@ -32,7 +32,7 @@ export class AppComponent implements OnInit{
     {
       id: 3,
       name: 'Bike 3',
-      speed: 150,
+      speed: 100,
       email: 'bike2@example.com',
       svg: 'blue',
       bikeImage: '../assets/bycicle.png',
